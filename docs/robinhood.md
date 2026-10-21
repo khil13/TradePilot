@@ -23,7 +23,11 @@ and rolling out gradually, so not every account has it yet.
 
 **A dedicated agent account.** On first connect, Robinhood has you open an
 "MCP account" (you need a primary individual investing account in good
-standing; up to 10 self-directed individual accounts in total).
+standing; up to 10 self-directed individual accounts in total). It is a
+second account under your own login, owned and funded by you alone, not
+shared with anyone. Robinhood requires the agent's trades to happen there,
+even though the agent connects through your personal login; your main
+account stays out of the agent's reach for orders.
 
 - The agent can **trade only in the MCP account**: long stock, options and
   crypto (crypto needs a separate Robinhood Crypto account tied to it).
