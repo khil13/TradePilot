@@ -1,2 +1,5 @@
 # Trading state and personal config written by the trader-* skills
 trader/
+# trader-agents: TradingAgents virtualenv and LLM keys
+.venv-tradingagents/
+.env
