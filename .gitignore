@@ -3,3 +3,5 @@ trader/
 # trader-agents: TradingAgents virtualenv and LLM keys
 .venv-tradingagents/
 .env
+# trader-vibe: Vibe-Trading virtualenv
+.venv-vibe-trading/

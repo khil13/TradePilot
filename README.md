@@ -24,3 +24,12 @@ They need Python 3.8+ (no pip installs). The SEC tools need
 Paper trading is the default, and no order is placed without your explicit yes.
 
 Not financial advice.
+
+`/trader-vibe` connects
+[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)'s MCP server
+(MIT, `vibe-trading-ai` 0.1.16) through `.mcp.json`: long-horizon backtests,
+indicator and pattern engines, options chains with Greeks and payoffs, risk
+math, trade-journal diagnosis and 90 methodology skills. Its MCP surface is
+read-only and exposes no order tools. Install once with
+`bash .claude/skills/trader-vibe/vibe.sh install` (Python 3.11+), then
+restart Claude Code and approve the `vibe-trading` server.

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vibe-trading": {
+      "command": "bash",
+      "args": [".claude/skills/trader-vibe/vibe.sh", "mcp"]
+    }
+  }
+}
