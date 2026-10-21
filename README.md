@@ -10,6 +10,14 @@ Code and they're available as `/trader-scanner`, `/trader-news`,
 `/trader-risk`, `/trader-broker`, `/trader-alerts`, `/trader-analyst` and
 `/trader-pelosi`.
 
+`/trader-agents` wraps
+[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
+(Apache-2.0, pinned to v0.7.0): a multi-agent LLM desk (analysts, a bull/bear
+debate, a risk team, a portfolio manager) that gives a second-opinion rating
+and report under `trader/agents/`. It never places orders. It needs Python
+3.11+ and an LLM key (`ANTHROPIC_API_KEY` by default); install once with
+`bash .claude/skills/trader-agents/run.sh install`.
+
 They need Python 3.8+ (no pip installs). The SEC tools need
 `SEC_USER_AGENT="Your Name you@example.com"` or `sec_user_agent` in
 `trader/config.json`. Runtime state goes in `trader/`, which is git-ignored.
